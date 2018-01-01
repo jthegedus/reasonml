@@ -48,4 +48,4 @@ To run tests for a particular exercise, `yarn test-assignment ASS=luhn` or navig
 
 ## Contribution
 
-This is a work in progress used to better learn ReasonML itself. If you have comments or corrections, please start a dialogue through GitHub issues before PRs, thanks!
+This is a work in progress used to better learn ReasonML itself. If you have comments or corrections, please start a dialogue through GitHub issues before PRs. After all, this may or may not be merged into Exercism, I've not looked into that process yet. Thanks!
