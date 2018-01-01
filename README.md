@@ -2,6 +2,8 @@
 
 Exercism exercises in ReasonML.
 
+This track focuses on the use of ReasonML as a web application language within the JavaScript ecosystem, covering [BuckleScript](https://bucklescript.github.io/) and [JavaScript Interop](https://bucklescript.github.io/docs/en/interop-overview.html). The tests are written using the [`bs-jest`](https://github.com/glennsl/bs-jest), the BuckleScript binding for [Jest](http://facebook.github.io/jest/).
+
 ## Prerequisites
 
 The ReasonML track assumes installation of Reason v3.x and BuckleScript. All of this can be installed through npm or yarn with the following:
