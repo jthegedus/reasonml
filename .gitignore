@@ -1,4 +1,9 @@
 
+### Manually Added ###
+#
+# do no commit Javascript files
+*.js
+
 ### BSB Generated ###
 *.exe
 *.obj

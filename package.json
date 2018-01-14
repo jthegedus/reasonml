@@ -16,6 +16,12 @@
   "keywords": ["BuckleScript"],
   "devDependencies": {
     "@glennsl/bs-jest": "^0.3.2",
-    "bs-platform": "^2.1.0"
+    "bs-platform": "^2.1.0",
+    "reason-cli":
+      "https://github.com/reasonml/reason-cli/archive/3.0.4-bin-linux.tar.gz"
+  },
+  "dependencies": {},
+  "jest": {
+    "testRegex": "\\_test\\.js"
   }
 }

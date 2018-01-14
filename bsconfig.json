@@ -4,11 +4,8 @@
   "sources": [
     {
       "dir": "exercises",
+      "type": "dev",
       "subdirs": true
-    },
-    {
-      "dir": "__tests__",
-      "type": "dev"
     }
   ],
   "package-specs": {
