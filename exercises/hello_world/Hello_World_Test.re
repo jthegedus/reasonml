@@ -1,8 +1,9 @@
 open Jest;
 
+open Expect;
+
 let () =
   describe("Hello_World tests", () => {
-    open Expect;
     test("test string contents", () =>
       expect(Hello_World.output) |> toEqual("Hello, BuckleScript")
     );

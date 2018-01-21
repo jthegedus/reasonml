@@ -1,8 +1,9 @@
 open Jest;
 
+open ExpectJs;
+
 let () = {
   describe("Leap year", () => {
-    open ExpectJs;
     test("is not very common", () =>
       expect(Leap.isLeapYear(2015)) |> toBeFalsy
     );

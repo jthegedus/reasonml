@@ -1,9 +1,10 @@
 open Jest;
 
+open Expect;
+
 let () =
   describe("Reverse String", () => {
     describe("with a loop", () => {
-      open Expect;
       test("empty string", () => {
         let expected = "";
         let actual = Reverse_String.loop("");

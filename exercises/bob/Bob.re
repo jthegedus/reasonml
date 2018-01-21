@@ -35,7 +35,6 @@ let analyseSpeech = (speech: string) : speechType => {
       /* noAlpha ! question == other */
       /* noAlpha && question == ? */
       (question && shouting) {
-      Js.log(trimmedSpeech);
       ShoutingQuestion;
     } else if (question && ! shouting) {
       Question;

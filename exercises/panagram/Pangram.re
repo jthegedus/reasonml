@@ -9,7 +9,6 @@ let missingChars = (sentence: string) : bool => {
     count := count^ + 1;
   };
   let msg = notMissing^ ? "Valid" : "Invalid";
-  Js.log({j|$sentence is $msg|j});
   notMissing^;
 };
 

@@ -28,19 +28,11 @@ let validRna = (rna: string) : bool => {
   let rna = String.capitalize(rna);
   let valid = ref(true);
   let x = ref(0);
-
-  Js.log(String.length(rna)-1);
-  while(valid^ && (x^ < String.length(rna))) {
-    let charAt = rna.[x^];
-    /* Js.log({j|testing $charAt|j}); */
-    valid := String.contains(validChars, rna.[x^]);  
-    /* increment counter */
-    x := x^ + 1;
+  while (valid^ && x^ < String.length(rna)) {
+    valid := String.contains(validChars, rna.[x^]);
+    x := x^ + 1; /* increment counter */
   };
-
   let msg = valid^ ? "Valid" : "Invalid";
-  Js.log({j|$rna is $msg|j});  
-
   valid^;
 };
 

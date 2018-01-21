@@ -1,8 +1,9 @@
 open Jest;
 
+open ExpectJs;
+
 let () =
   describe("Two Fer", () => {
-    open ExpectJs;
     test("gives one to you if no params", () =>
       expect(Two_Fer.twoFer()) |> toEqual("One for you, one for me.")
     );
