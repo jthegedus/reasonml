@@ -1,3 +1,5 @@
+## Deprecated. See official Exercism track - https://exercism.io/tracks/reasonml
+
 # reasonml
 
 Exercism exercises in ReasonML.
